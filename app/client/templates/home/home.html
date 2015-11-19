@@ -1,5 +1,17 @@
 <template name="Home">
-  <div class="home">
-    <h1>Find me in app/client/templates/home/home</h1>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              {{> carrousel}}
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-9">
+              {{> homeInfo}}
+          </div>
+          <div class="col-md-3">
+              {{> loginSignup}}
+          </div>
+      </div>
   </div>
 </template>
